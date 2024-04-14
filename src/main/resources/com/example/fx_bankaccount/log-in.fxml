@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx_bankaccount.LogIn">
+    <children>
+        <Button fx:id="btn" layoutX="140.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#logIn" text="Login" />
+        <TextField fx:id="logintxt" layoutX="92.0" layoutY="70.0" promptText="login" />
+        <TextField fx:id="pwdtxt" layoutX="92.0" layoutY="112.0" promptText="password" />
+        <Label fx:id="msgLbl" layoutX="92" layoutY="220.0" />
+    </children>
+</AnchorPane>

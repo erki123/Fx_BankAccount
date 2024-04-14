@@ -1,0 +1,10 @@
+.custom-popup {
+    /*-fx-background-color: #FFFFFF;  Background color */
+    -fx-background-color: rgb(173,216,230); /* light blue background color */
+    -fx-border-color: #CCCCCC; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius for rounded corners */
+    -fx-background-radius: 5px; /* Background radius for rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);  /* Elevation */
+    -fx-padding: 5px; /* Padding inside the popup */
+}
